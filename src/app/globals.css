@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .wrapper {
+    @apply mx-auto my-0 max-w-6xl lg:max-w-7xl p-4;
+  }
 
-@layer components{
-    .wrapper {
-        @apply mx-auto my-0 max-w-6xl 2xl:max-w-7xl p-4;
-      }
-
-    .font{
-        @apply font-medium text-white;
-    }  
+  .font {
+    @apply font-medium text-white;
+  }
 }
