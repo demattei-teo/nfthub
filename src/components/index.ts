@@ -1,3 +1,10 @@
-export { default as Header } from './header/Header';
-
-
+export { default as Header } from './header/Header'
+export { default as Navbar } from './header/Navbar'
+export { default as IconClose } from './icons/IconClose'
+export { default as IconDiscord } from './icons/IconDiscord'
+export { default as IconFacebook } from './icons/IconFacebook'
+export { default as IconInstagram } from './icons/IconInstagram'
+export { default as IconMenu } from './icons/IconMenu'
+export { default as IconTelegram } from './icons/IconTelegram'
+export { default as IconTwitter } from './icons/IconTwitter'
+export { default as Logo } from './logo/Logo'
