@@ -6,9 +6,8 @@ body {
   color: #ffff;
 }
 .rfm-marquee,
-.rfm-marquee-container,
 .rfm-initial-child-container {
-  display: flex;
+  display: grid;
   gap: 3.25rem;
 }
 
