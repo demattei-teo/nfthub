@@ -1,9 +1,9 @@
-
+import { Hero } from '@/components'
 
 function Home() {
   return (
     <main>
-      <h1 className="font">bon dia</h1>
+      <Hero />
     </main>
   )
 }

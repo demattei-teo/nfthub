@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  color: #ffff;
+}
+
 @layer components {
   .wrapper {
     @apply mx-auto my-0 max-w-6xl lg:max-w-7xl p-4;
