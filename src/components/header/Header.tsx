@@ -4,13 +4,13 @@ import { useState } from 'react'
 import { IconDiscord, IconFacebook, IconInstagram, IconMenu, Logo, Navbar } from '..'
 
 function Header() {
-  const [stateMenu, setStateMenu] = useState<boolean>(false)
+  const [stateMenu, setStateMenu] = useState<boolean>(true)
   function changeState(state: boolean) {
     setStateMenu(state)
   }
 
   return (
-    <header className='wrapper overflow-hidden flex items-center justify-between'>
+    <header className='wrapper overflow-hidden flex items-center  justify-between'>
       <Logo content='NFTHUB' />
       <div className='flex gap-5 items-center lg:hidden'>
         <div className='flex gap-3'>

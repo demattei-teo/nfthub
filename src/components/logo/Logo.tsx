@@ -9,7 +9,7 @@ interface Props {
 
 function Logo({ content }: Props) {
   const style = {
-    logo: clsx('text-white font-bold text-lg', orbitron.className)
+    logo: clsx('text-white font-bold text-fluid-base', orbitron.className)
   }
 
   return <span className={style.logo}>{content}</span>
