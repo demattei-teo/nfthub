@@ -5,6 +5,7 @@ import IconCollection from '@/components/icons/IconCollection'
 import IconCommunity from '@/components/icons/IconCommunity'
 import IconQuality from '@/components/icons/IconQuality'
 import IconResouce from '@/components/icons/IconResouce'
+import { StatisticProps } from '@/components/statistic/Statistic'
 
 export const brands = [<IconBitGo />, <IconCoinBase />, <IconExodus />, <IconMetaTask />, <IconTrustWallet />]
 
@@ -79,5 +80,27 @@ export const cards: ChooseCardProps[] = [
     icon: <IconCommunity />,
     title: 'Big Community',
     description: 'Be part of a community of nerko owners and create user generated items.'
+  }
+]
+
+export const statisticCard: StatisticProps['statisticCard'] = [
+  {
+    title: '400K+',
+    detail: 'Wallets Connected',
+    border: true
+  },
+  {
+    title: '20K+',
+    detail: 'Wallets Connected',
+    border: true
+  },
+  {
+    title: '230+',
+    detail: 'Creative Artists',
+    border: true
+  },
+  {
+    title: '2.5X',
+    detail: 'Estimated value'
   }
 ]
