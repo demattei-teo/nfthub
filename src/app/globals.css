@@ -11,6 +11,13 @@ body {
   display: flex;
   gap: 3.25rem;
 }
+.swiper-pagination {
+  position: static !important;
+  padding-top: 40px;
+}
+.swiper-pagination-bullet {
+  background-color: #ff00ea !important;
+}
 
 @layer components {
   .wrapper {
