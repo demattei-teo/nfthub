@@ -16,12 +16,12 @@ body {
   padding-top: 40px;
 }
 .swiper-pagination-bullet {
-  background-color: #ff00ea !important;
+  background-color: #ffffff !important;
 }
 
 @layer components {
   .wrapper {
-    @apply mx-auto my-0 max-w-6xl lg:max-w-7xl p-4;
+    @apply mx-auto my-0 max-w-7xl p-4;
   }
 
   .font {

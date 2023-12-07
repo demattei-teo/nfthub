@@ -5,23 +5,22 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Button, CarrouselCard, IconArrow } from '..'
-import { CarrouselCardProps } from './CarrouselCard'
+import { Button, CarrouselCard, IconArrow, Title } from '..'
+import { CarrouselCardProps } from '../cards/CarrouselCard'
+import { TitleProps } from '../title/Title'
 
 interface CarrouselProps {
-  title?: string
-  highlightTitle?: string
+  title?: TitleProps['title']
+  highlightTitle?: TitleProps['highlightTitle']
   cards: CarrouselCardProps[]
 }
 
 function Carrousel({ title, cards, highlightTitle }: CarrouselProps) {
   return (
     <section className='w-full items-center justify-center px-4'>
-      {title && (
+      {title && highlightTitle && (
         <div className='px-10 max-w-7xl my-0 mx-auto flex items-center justify-center pb-16'>
-          <h2 className='text-fluid-xl font-bold flex flex-col md:flex-row text-center leading-fluid-xs md:gap-5'>
-            {title} <span className='bg-gradient-to-r from-purple-700 via-purple-500 to-pink-500 text-transparent bg-clip-text text-center'>{highlightTitle}</span>
-          </h2>
+          <Title title={title} highlightTitle={highlightTitle} />
         </div>
       )}
       <Swiper
