@@ -13,7 +13,7 @@ function IconExodus() {
       <defs>
         <linearGradient id='paint0_linear_1_895' x1='0.587916' y1='17.2337' x2='21.3726' y2='17.2337' gradientUnits='userSpaceOnUse'>
           <stop stopColor='#00BFFF' />
-          <stop offset='1' stop-color='#6619FF' />
+          <stop offset='1' stopColor='#6619FF' />
         </linearGradient>
         <clipPath id='clip0_1_895'>
           <rect width='126.52' height='33.8769' fill='white' transform='translate(-0.0100098 0.491577)' />

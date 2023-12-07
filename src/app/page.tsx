@@ -1,11 +1,13 @@
-import { Hero, IconBitGo, IconCoinBase, IconExodus, IconMetaTask, IconTrustWallet, MarqueeBrands } from '@/components'
+import { Carrousel, Hero, MarqueeBrands, Separator } from '@/components'
+import { brands, cards } from '@/utils/General'
 function Home() {
-  const brands = [<IconBitGo />, <IconCoinBase />, <IconExodus />, <IconMetaTask />, <IconTrustWallet />]
-
   return (
     <main className='flex flex-col gap-40'>
       <Hero />
       <MarqueeBrands content={brands} />
+      <Separator />
+      <Carrousel cards={cards} title='Nfthub`s ' highlightTitle='collection' />
+      <Separator />
     </main>
   )
 }
