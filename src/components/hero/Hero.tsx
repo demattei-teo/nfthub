@@ -19,11 +19,11 @@ function Hero() {
         </div>
       </div>
       <div className='relative'>
-        <Image src='/images/hero_nft.png' alt='NFT Image' fill sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw' className='object-contain object-right' priority />
-        <Image className='absolute top-[55%] right-[45%] 2xl:top-[60%] 2xl:right-[60%]' width={33} height={33} sizes='33vw' src='/shapes/shape1.png' alt='shape' priority />
-        <Image className='absolute bottom-0 top-[35%] right-[20%]' width={33} height={33} sizes='33vw' src='/shapes/shape1.png' alt='shape' priority />
-        <Image className='absolute right-[10%]' width={36} height={36} sizes='33vw' src='/shapes/shape2.png' alt='shape' priority />
-        <Image className='absolute bottom-[10%] right-[60%]' width={36} height={36} sizes='33vw' src='/shapes/shape3.png' alt='shape' priority />
+        <Image src='/images/hero_nft.png' alt='NFT Image' fill sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw' className='object-contain lg:object-right' priority />
+        <Image className='absolute top-[55%] right-[60%] lg:right-[45%] 2xl:top-[60%] 2xl:right-[60%]' width={33} height={33} src='/shapes/shape1.png' alt='shape' priority />
+        <Image className='absolute bottom-0 top-[35%] right-[40%] lg:right-[20%]' width={33} height={33} src='/shapes/shape1.png' alt='shape' priority />
+        <Image className='absolute right-[40%] lg:right-[10%]' width={36} height={36} src='/shapes/shape2.png' alt='shape' priority />
+        <Image className='absolute bottom-[10%] right-[60%]' width={36} height={36} src='/shapes/shape3.png' alt='shape' priority />
       </div>
     </section>
   )
