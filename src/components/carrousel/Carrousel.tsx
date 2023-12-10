@@ -20,7 +20,7 @@ function Carrousel({ title, cards, highlightTitle }: CarrouselProps) {
     <section className='w-full items-center justify-center px-4'>
       {title && highlightTitle && (
         <div className='px-10 max-w-7xl my-0 mx-auto flex items-center justify-center pb-16'>
-          <Title title={title} highlightTitle={highlightTitle} />
+          <Title title={title} highlightTitle={highlightTitle} headingLevel='h2' />
         </div>
       )}
       <Swiper

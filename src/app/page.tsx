@@ -1,5 +1,5 @@
-import { Carrousel, ChooseUs, Hero, MarqueeBrands, Separator, Statistic } from '@/components'
-import { brands, cards, cardsCarrousel, statisticCard } from '@/utils/General'
+import { Carrousel, ChooseUs, Hero, MarqueeBrands, Separator, Statistic, WrapperFeature } from '@/components'
+import { brands, cards, cardsCarrousel, feature, statisticCard } from '@/utils/General'
 
 function Home() {
   return (
@@ -13,6 +13,7 @@ function Home() {
       <Separator />
       <Statistic statisticCard={statisticCard} />
       <Separator />
+      <WrapperFeature featureContent={feature} />
     </main>
   )
 }
