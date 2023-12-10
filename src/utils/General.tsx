@@ -1,6 +1,7 @@
 import { IconBitGo, IconCoinBase, IconExodus, IconMetaTask, IconTrustWallet } from '@/components'
 import { CarrouselCardProps } from '@/components/cards/CarrouselCard'
 import { ChooseCardProps } from '@/components/cards/ChooseCard'
+import { FeatureProps } from '@/components/feature/Feature'
 import IconCollection from '@/components/icons/IconCollection'
 import IconCommunity from '@/components/icons/IconCommunity'
 import IconQuality from '@/components/icons/IconQuality'
@@ -102,5 +103,38 @@ export const statisticCard: StatisticProps['statisticCard'] = [
   {
     title: '2.5X',
     detail: 'Estimated value'
+  }
+]
+
+export const feature: FeatureProps[] = [
+  {
+    preTitle: '01.',
+    position: 'default',
+    title: 'Setup and connect your wallet',
+    description: 'Use Trust Wallet, Metamask or any wallet to connect to multiple chains the app.',
+    description2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Metamask or any wallet ipsam temporibus.',
+    srcImage: '/images/feature1.png',
+    altImage: 'bitcoin wallet',
+    button: 'Learn more'
+  },
+  {
+    preTitle: '02.',
+    position: 'reverse',
+    title: 'Create your own digital artwork',
+    description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artwork`s & digital artwork.',
+    description2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Metamask or any wallet ipsam temporibus.',
+    srcImage: '/images/feature2.png',
+    altImage: 'NFT',
+    button: 'Learn more'
+  },
+  {
+    preTitle: '03.',
+    position: 'default',
+    title: 'Choose a platform to sell your NFT',
+    description: 'Earn ETH and BIT for all your NFTs that you sell on our marketplace.',
+    description2: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae doloremque a officiis quasi autem!',
+    srcImage: '/images/feature3.png',
+    altImage: 'digital arkwork',
+    button: 'Learn more'
   }
 ]
