@@ -2,7 +2,7 @@ function IconSeparator() {
   return (
     <svg width='80' height='21' viewBox='0 0 80 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
       <g clipPath='url(#clip0_1_901)'>
-        <path d='M1.61987 4.05835L14.4132 16.8517L27.2065 4.05835L39.9999 16.8517L52.7932 4.05835L65.5865 16.8517L78.3799 4.05835' stroke='url(#paint0_linear_1_901)' stroke-width='4.26444' />
+        <path d='M1.61987 4.05835L14.4132 16.8517L27.2065 4.05835L39.9999 16.8517L52.7932 4.05835L65.5865 16.8517L78.3799 4.05835' stroke='url(#paint0_linear_1_901)' strokeWidth='4.26444' />
       </g>
       <defs>
         <linearGradient id='paint0_linear_1_901' x1='1.61987' y1='10.455' x2='78.3799' y2='10.455' gradientUnits='userSpaceOnUse'>
