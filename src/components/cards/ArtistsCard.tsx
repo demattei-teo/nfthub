@@ -17,7 +17,7 @@ function ArtistsCard({ scrImage, altImage, title, detail, position }: ArtistsCar
   return (
     <article className={styles.wrapper}>
       <Image src={scrImage} width={200} height={200} alt={altImage} className='object-cover' />
-      <h6 className='text-fluid-ms font-bold'>{title}</h6>
+      <h6 className='text-fluid-ms text-center font-bold'>{title}</h6>
       <p className='text-gray-400'>{detail}</p>
       <ul className='flex gap-3'>
         <IconInstagram />

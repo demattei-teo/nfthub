@@ -1,4 +1,7 @@
+export { default as Artists } from './artists/Artists'
+export { default as Banner } from './banner/Banner'
 export { default as Button } from './buttons/Button'
+export { default as ArtistsCard } from './cards/ArtistsCard'
 export { default as CarrouselCard } from './cards/CarrouselCard'
 export { default as ChooseCard } from './cards/ChooseCard'
 export { default as RoadMapCard } from './cards/RoadMapCard'

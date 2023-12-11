@@ -1,4 +1,4 @@
-import { Carrousel, ChooseUs, Hero, MarqueeBrands, RoadMap, Separator, Statistic, SuscribeForm, WrapperFeature } from '@/components'
+import { Banner, Carrousel, ChooseUs, Hero, MarqueeBrands, RoadMap, Separator, Statistic, SuscribeForm, WrapperFeature } from '@/components'
 import Artists from '@/components/artists/Artists'
 import { artists, brands, cards, cardsCarrousel, feature, roadmapCards, statisticCard } from '@/utils/General'
 
@@ -22,6 +22,7 @@ function Home() {
       <Separator />
       <Artists cards={artists} />
       <Separator />
+      <Banner />
     </main>
   )
 }
