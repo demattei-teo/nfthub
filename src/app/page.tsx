@@ -1,5 +1,6 @@
 import { Carrousel, ChooseUs, Hero, MarqueeBrands, RoadMap, Separator, Statistic, SuscribeForm, WrapperFeature } from '@/components'
-import { brands, cards, cardsCarrousel, feature, roadmapCards, statisticCard } from '@/utils/General'
+import Artists from '@/components/artists/Artists'
+import { artists, brands, cards, cardsCarrousel, feature, roadmapCards, statisticCard } from '@/utils/General'
 
 function Home() {
   return (
@@ -18,6 +19,9 @@ function Home() {
       <SuscribeForm title='Never' highlightTitle='miss a drop!' description='Subscribe to our super-rare and exclusive drops & collectibles.' button='subscribe' placeHolderInput='Enter your email' />
       <Separator />
       <RoadMap title='Nfthub`s' highlightTitle='Roadmap' cards={roadmapCards} />
+      <Separator />
+      <Artists cards={artists} />
+      <Separator />
     </main>
   )
 }

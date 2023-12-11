@@ -1,4 +1,5 @@
 import { IconBitGo, IconCoinBase, IconExodus, IconMetaTask, IconTrustWallet } from '@/components'
+import { ArtistsCardProps } from '@/components/cards/ArtistsCard'
 import { CarrouselCardProps } from '@/components/cards/CarrouselCard'
 import { ChooseCardProps } from '@/components/cards/ChooseCard'
 import { RoadMapCardProps } from '@/components/cards/RoadMapCard'
@@ -182,5 +183,36 @@ export const roadmapCards: RoadMapCardProps[] = [
     description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.',
     items: ['Release website and logo', 'Grow community', 'Launch the projec'],
     icon: '/porcentage/porcentage_100.png'
+  }
+]
+
+export const artists: ArtistsCardProps[] = [
+  {
+    position: 'top',
+    title: 'Steps Jobs',
+    detail: 'Artist',
+    scrImage: '/images/artists_1.png',
+    altImage: 'artists'
+  },
+  {
+    position: 'bottom',
+    title: 'Andry Moray',
+    detail: 'Blockchain',
+    scrImage: '/images/artists_2.png',
+    altImage: 'Blockchain'
+  },
+  {
+    position: 'top',
+    title: 'Laila Ed',
+    detail: 'Marketing',
+    scrImage: '/images/artists_4.png',
+    altImage: 'Marketing'
+  },
+  {
+    position: 'bottom',
+    title: 'Zaid Ed',
+    detail: 'Developer',
+    scrImage: '/images/artists_3.png',
+    altImage: 'Developer'
   }
 ]
