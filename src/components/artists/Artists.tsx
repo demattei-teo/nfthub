@@ -6,7 +6,7 @@ interface ArtistsProps {
 
 function Artists({ cards }: ArtistsProps) {
   return (
-    <section className='wrapper grid grid-cols-[repeat(auto-fit,minmax(240px,_1fr))] lg:grid-cols-4 gap-28'>
+    <section className='wrapper grid gap-7 min-[468px]:grid-cols-2 sm:grid-cols-4 lg:gap-28'>
       {cards.map((data, index) => {
         return <ArtistsCard key={index} {...data} />
       })}
