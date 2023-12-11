@@ -1,4 +1,4 @@
-import { Carrousel, ChooseUs, Hero, MarqueeBrands, Separator, Statistic, WrapperFeature } from '@/components'
+import { Carrousel, ChooseUs, Hero, MarqueeBrands, Separator, Statistic, SuscribeForm, WrapperFeature } from '@/components'
 import { brands, cards, cardsCarrousel, feature, statisticCard } from '@/utils/General'
 
 function Home() {
@@ -14,6 +14,8 @@ function Home() {
       <Statistic statisticCard={statisticCard} />
       <Separator />
       <WrapperFeature featureContent={feature} />
+      <Separator />
+      <SuscribeForm title='Never' highlightTitle='miss a drop!' description='Subscribe to our super-rare and exclusive drops & collectibles.' button='subscribe' placeHolderInput='Enter your email' />
     </main>
   )
 }

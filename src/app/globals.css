@@ -21,7 +21,7 @@ body {
 
 @layer components {
   .wrapper {
-    @apply mx-auto my-0 max-w-7xl p-4;
+    @apply mx-auto my-0 max-w-7xl p-2.5;
   }
 
   .font {
