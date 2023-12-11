@@ -1,6 +1,7 @@
 import { IconBitGo, IconCoinBase, IconExodus, IconMetaTask, IconTrustWallet } from '@/components'
 import { CarrouselCardProps } from '@/components/cards/CarrouselCard'
 import { ChooseCardProps } from '@/components/cards/ChooseCard'
+import { RoadMapCardProps } from '@/components/cards/RoadMapCard'
 import { FeatureProps } from '@/components/feature/Feature'
 import IconCollection from '@/components/icons/IconCollection'
 import IconCommunity from '@/components/icons/IconCommunity'
@@ -136,5 +137,50 @@ export const feature: FeatureProps[] = [
     srcImage: '/images/feature3.png',
     altImage: 'digital arkwork',
     button: 'Learn more'
+  }
+]
+
+export const roadmapCards: RoadMapCardProps[] = [
+  {
+    preTitle: 'PHASE 01',
+    title: 'Planning',
+    description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.',
+    items: ['Release website and logo', 'Grow community', 'Launch the projec'],
+    icon: '/porcentage/porcentage_0.png'
+  },
+  {
+    preTitle: 'PHASE 02',
+    title: 'Production',
+    description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.',
+    items: ['Release website and logo', 'Grow community', 'Launch the projec'],
+    icon: '/porcentage/porcentage_25.png'
+  },
+  {
+    preTitle: 'PHASE 03',
+    title: 'Launch',
+    description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.',
+    items: ['Release website and logo', 'Grow community', 'Launch the projec'],
+    icon: '/porcentage/porcentage_50.png'
+  },
+  {
+    preTitle: 'PHASE 04',
+    title: 'Minting',
+    description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.',
+    items: ['Release website and logo', 'Grow community', 'Launch the projec'],
+    icon: '/porcentage/porcentage_75.png'
+  },
+  {
+    preTitle: 'PHASE 05',
+    title: 'New Nfts',
+    description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.',
+    items: ['Release website and logo', 'Grow community', 'Launch the projec'],
+    icon: '/porcentage/porcentage_95.png'
+  },
+  {
+    preTitle: 'PHASE 06',
+    title: 'Metaverse',
+    description: 'Quality comes first. we took our time to plan out everything and build our production pipeline for a good quality artworks.',
+    items: ['Release website and logo', 'Grow community', 'Launch the projec'],
+    icon: '/porcentage/porcentage_100.png'
   }
 ]

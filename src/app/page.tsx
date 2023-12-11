@@ -1,5 +1,5 @@
-import { Carrousel, ChooseUs, Hero, MarqueeBrands, Separator, Statistic, SuscribeForm, WrapperFeature } from '@/components'
-import { brands, cards, cardsCarrousel, feature, statisticCard } from '@/utils/General'
+import { Carrousel, ChooseUs, Hero, MarqueeBrands, RoadMap, Separator, Statistic, SuscribeForm, WrapperFeature } from '@/components'
+import { brands, cards, cardsCarrousel, feature, roadmapCards, statisticCard } from '@/utils/General'
 
 function Home() {
   return (
@@ -16,6 +16,8 @@ function Home() {
       <WrapperFeature featureContent={feature} />
       <Separator />
       <SuscribeForm title='Never' highlightTitle='miss a drop!' description='Subscribe to our super-rare and exclusive drops & collectibles.' button='subscribe' placeHolderInput='Enter your email' />
+      <Separator />
+      <RoadMap title='Nfthub`s' highlightTitle='Roadmap' cards={roadmapCards} />
     </main>
   )
 }
