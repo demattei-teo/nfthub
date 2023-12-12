@@ -9,7 +9,7 @@ interface RoadMapProps {
 
 function RoadMap({ title, cards, highlightTitle }: RoadMapProps) {
   return (
-    <section className='wrapper gap-20 flex flex-col items-center'>
+    <section id='roadmap' className='wrapper gap-20 flex flex-col items-center'>
       <Title title={title} highlightTitle={highlightTitle} headingLevel='h6' />
       <ul className='grid grid-cols-[repeat(auto-fit,minmax(240px,_1fr))] min-[520px]:grid-cols-[repeat(auto-fit,minmax(320px,_1fr))] xl:grid-cols-3 gap-7'>
         {cards.map((data, index) => {

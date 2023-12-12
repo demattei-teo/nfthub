@@ -11,7 +11,7 @@ interface ChooseProps {
 
 function ChooseUs({ title, cards, highlightTitle }: ChooseProps) {
   return (
-    <section className='wrapper flex flex-col items-center relative px-8 justify-center gap-20'>
+    <section id='choose' className='wrapper flex flex-col items-center relative justify-center gap-20'>
       <Image src='/shapes/shape6.png' className='hidden xl:block absolute bottom-0 left-[0]' alt='shape' width={28} height={28} />
       <Image src='/shapes/shape7.png' className='hidden xl:block absolute top-20 left-20' alt='shape' width={28} height={28} />
       <Image src='/shapes/shape8.png' className='hidden xl:block absolute  bottom-10 right-[0]' alt='shape' width={28} height={28} />

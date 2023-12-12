@@ -11,7 +11,7 @@ export interface StatisticProps {
 
 function Statistic({ statisticCard }: StatisticProps) {
   return (
-    <section className='wrapper grid sm:grid-cols-2 lg:grid-cols-4 relative'>
+    <section id='statistic' className='wrapper grid sm:grid-cols-2 lg:grid-cols-4 relative'>
       <Image src='/shapes/shape9.png' width={30} height={30} alt='shape' className='absolute right-[0%] -top-[5%] lg:-top-[20%] lg:right-[20%]' />
       <Image src='/shapes/shape10.png' width={30} height={30} alt='shape' className='absolute right-[0%] -bottom-[10%] left-[20%]' />
       {statisticCard.map((data, index) => {
