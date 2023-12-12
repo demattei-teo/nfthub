@@ -25,31 +25,31 @@ function Navbar({ state, functionState }: Props) {
           className='py-2 border-y-[1px] border-gray-600 lg:border-none transition-colors duration-200
          ease-linear lg:hover:text-purple-400'
         >
-          <Link href='#'>Home</Link>
+          <Link href='#hero'>Home</Link>
         </li>
         <li
           className='py-2 border-y-[1px] border-gray-600 lg:border-none transition-colors duration-200
          ease-linear lg:hover:text-purple-400'
         >
-          <Link href='#'>Collection</Link>
+          <Link href='#carrousel'>Collection</Link>
         </li>
         <li
           className='py-2 border-y-[1px] border-gray-600 lg:border-none transition-colors duration-200
          ease-linear lg:hover:text-purple-400'
         >
-          <Link href='#'>Choose</Link>
+          <Link href='#choose'>Choose</Link>
         </li>
         <li
           className='py-2 border-y-[1px] border-gray-600 lg:border-none transition-colors duration-200
          ease-linear lg:hover:text-purple-400'
         >
-          <Link href='#'>About</Link>
+          <Link href='#wrapperFeature'>About</Link>
         </li>
         <li
           className='py-2 border-y-[1px] border-gray-600 lg:border-none transition-colors duration-200
          ease-linear lg:hover:text-purple-400'
         >
-          <Link href='#'>Roadmap</Link>
+          <Link href='#roadmap'>Roadmap</Link>
         </li>
         <li
           className='py-2 border-y-[1px] border-gray-600 lg:border-none transition-colors duration-200

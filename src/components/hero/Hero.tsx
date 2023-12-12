@@ -3,7 +3,7 @@ import { Button, IconArrow } from '..'
 
 function Hero() {
   return (
-    <section className='pt-16 wrapper grid lg:grid-cols-2 gap-20 lg:gap-4 grid-rows-2 lg:grid-rows-1  min-h-[70vh]'>
+    <section id='hero' className='pt-16 wrapper grid lg:grid-cols-2 gap-20 lg:gap-4 grid-rows-2 lg:grid-rows-1  min-h-[70vh]'>
       <div className='grid grid-cols-1 content-center justify-items-center lg:justify-items-start  gap-6'>
         <h1 className='text-white text-fluid-xl-2 leading-fluid-xl font-bold text-center lg:text-5xl lg:text-left '>High Quality NFT Collection</h1>
         <p className='text-center lg:text-left text-fluid-ms text-gray-400'>A 890 piece custom Nerko's collection is joining the NFT space on Opensea.</p>

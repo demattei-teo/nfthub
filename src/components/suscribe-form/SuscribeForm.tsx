@@ -11,8 +11,8 @@ interface SuscribeFormProps {
 
 function SuscribeForm({ placeHolderInput, title, highlightTitle, description, button }: SuscribeFormProps) {
   return (
-    <section className='wrapper'>
-      <div className='relative py-16 p-4 items-center justify-center gap-8 flex flex-col bg-transparent border border-gray-500 w-full rounded-[32px] lg:px-52'>
+    <section id='suscribe' className='wrapper'>
+      <div className='relative py-16 items-center justify-center gap-8 flex flex-col bg-transparent border border-gray-500 w-full rounded-[32px] lg:px-52'>
         <Image className='absolute z-10 bottom-4 right-4 lg:bottom-10 lg:right-20' width={44} height={44} src='/shapes/shape10.png' alt='shape' />
         <Image
           className='absolute z-10 top-28 right-4 lg:top-10

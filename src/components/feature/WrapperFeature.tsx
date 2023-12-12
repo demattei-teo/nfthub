@@ -12,7 +12,7 @@ function WrapperFeature({ featureContent }: WrapperProps) {
   }
 
   return (
-    <section className={styles.wrapper}>
+    <section id='wrapperFeature' className={styles.wrapper}>
       <Title title='How it' highlightTitle='works!' headingLevel='h4' />
       {featureContent.map((data, index) => {
         return <Feature key={index} srcImage={data.srcImage} altImage={data.altImage} preTitle={data.preTitle} title={data.title} description={data.description} button={data.button} position={data.position} description2={data.description2} />
