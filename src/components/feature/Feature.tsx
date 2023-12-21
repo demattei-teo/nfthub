@@ -28,7 +28,7 @@ function Feature({ srcImage, altImage, preTitle, title, description, description
         <p className='bg-gradient-to-r from-purple-700 via-purple-500 to-pink-500 text-transparent bg-clip-text text-fluid-xs font-semibold'>{preTitle}</p>
         <h5 className='text-fluid-xl-2 font-bold leading-fluid-xl'>{title}</h5>
         <p className='text-gray-400'>{description}</p>
-        {description2 && <p className='text-gray-400'>{description2}</p>}
+        {description2 !== null && <p className='text-gray-400'>{description2}</p>}
         <button className='flex gap-3 self-start font-bold'>
           {button}
           <IconArrow />

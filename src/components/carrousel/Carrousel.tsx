@@ -18,7 +18,7 @@ interface CarrouselProps {
 function Carrousel({ title, cards, highlightTitle }: CarrouselProps) {
   return (
     <section id='carrousel' className='w-full items-center justify-center px-4'>
-      {title && highlightTitle && (
+      {title !== undefined && highlightTitle !== undefined && (
         <div className='px-10 max-w-7xl my-0 mx-auto flex items-center justify-center pb-16'>
           <Title title={title} highlightTitle={highlightTitle} headingLevel='h2' />
         </div>

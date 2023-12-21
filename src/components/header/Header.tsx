@@ -5,8 +5,8 @@ import { IconDiscord, IconFacebook, IconInstagram, IconMenu, Logo, Navbar } from
 
 function Header() {
   const [stateMenu, setStateMenu] = useState<boolean>(true)
-  function changeState(state: boolean) {
-    setStateMenu(state)
+  function changeState(state: boolean): void {
+    return setStateMenu(state)
   }
 
   return (

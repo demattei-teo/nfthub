@@ -2,11 +2,11 @@ import clsx from 'clsx'
 import Image from 'next/image'
 
 export interface StatisticProps {
-  statisticCard: {
+  statisticCard: Array<{
     title: string
     detail: string
     border?: boolean
-  }[]
+  }>
 }
 
 function Statistic({ statisticCard }: StatisticProps) {
@@ -16,7 +16,7 @@ function Statistic({ statisticCard }: StatisticProps) {
       <Image src='/shapes/shape10.png' width={30} height={30} alt='shape' className='absolute right-[0%] -bottom-[10%] left-[20%]' />
       {statisticCard.map((data, index) => {
         const styles = {
-          wrapper: clsx('p-5', data.border && 'lg:border-r lg:border-gray-500')
+          wrapper: clsx('p-5', data?.border !== null && 'lg:border-r lg:border-gray-500')
         }
         return (
           <div className={styles.wrapper} key={index}>
