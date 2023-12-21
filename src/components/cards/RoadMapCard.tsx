@@ -17,7 +17,7 @@ function RoadMapCard({ preTitle, title, description, items, icon }: RoadMapCardP
       <h6 className='text-fluid-lg font-bold'>{title}</h6>
       <p className='text-gray-400 text-fluid-xs pb-8 relative'>
         {description}
-        <span className='block absolute bottom-0 left-0 transform  w-1/2 h-px bg-gray-600'></span>
+        <span className='block absolute bottom-0 left-0 transform  w-1/2 h-px bg-gray-600' />
       </p>
       <ul className='flex flex-col gap-2.5'>
         {items.map((data, index) => {

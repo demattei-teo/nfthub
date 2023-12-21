@@ -10,7 +10,7 @@ import IconQuality from '@/components/icons/IconQuality'
 import IconResouce from '@/components/icons/IconResouce'
 import { StatisticProps } from '@/components/statistic/Statistic'
 
-export const brands = [<IconBitGo />, <IconCoinBase />, <IconExodus />, <IconMetaTask />, <IconTrustWallet />]
+export const brands = [<IconBitGo key={1} />, <IconCoinBase key={2} />, <IconExodus key={3} />, <IconMetaTask key={4} />, <IconTrustWallet key={5} />]
 
 export const cardsCarrousel: CarrouselCardProps[] = [
   {
