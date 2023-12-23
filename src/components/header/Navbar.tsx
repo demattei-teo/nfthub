@@ -1,3 +1,4 @@
+'use client'
 import clsx from 'clsx'
 import { useSession } from 'next-auth/react'
 import Link from 'next/link'
