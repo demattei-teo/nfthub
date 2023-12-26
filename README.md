@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **📂 NFTHUB**
 
-## Getting Started
+landing page oriented to the presentation of NFT and others services
 
-First, run the development server:
+## **📑 GUIDE**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- step one
+
+```
+git clone https://github.com/demattei-teo/Lawyer.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- step two
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd lawyer && pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- step three
 
-## Learn More
+```
+pnpm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+- step four
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+get in to http://localhost:3000/
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## **🎨MOCKUPS**
 
-## Deploy on Vercel
+![](https://res.cloudinary.com/dadpdkkq9/image/upload/v1703603833/NFTHUB_1.jpg)
+![](https://res.cloudinary.com/dadpdkkq9/image/upload/v1703603833/NFTHUB_2.jpg)
+![](https://res.cloudinary.com/dadpdkkq9/image/upload/v1703603833/NFTHUB_3.jpg)
+![](https://res.cloudinary.com/dadpdkkq9/image/upload/v1703603833/NTFHUB_4.jpg)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **💬TECHNOLOGIES USED**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Use [Typescript](https://www.typescriptlang.org),[React.js](https://es.react.dev/) as development framework with [Next.js](https://nextjs.org/),[Tailwind.css](https://tailwindcss.com/) as styling framework,[NextAuth.js] as authenticator with providers, [Clsx](https://github.com/lukeed/clsx) as class constructor, [Husky](https://typicode.github.io/husky) for executing Git hooks with [Commitlint](https://commitlint.js.org) [Conventional Commits](https://www.conventionalcommits.org) rules, [ESLint](https://eslint.org) as code linter with [TS Standard](https://github.com/standard/ts-standard) rules, [Prettier](https://prettier.io) as code formatter, [Npm](https://docs.npmjs.com) for package management, [Git](https://git-scm.com/doc) for version control, and [Github](https://docs.github.com) for hosting project's code.
